@@ -56,7 +56,24 @@ edition = "2021"
     println!("bool  : {}", e);
 	```
 
-- 
+- 변수인데 바꿀 수 없다!!
+	```rust
+	// 불변성
+    let mut f = 200; // consider making this binding mutable: `mut f`
+    f = f + 34;
+    println!("sum   : {}", f); // cannot assign twice to immutable variable
+	```
 
+### 상수
+- const로 선언
+	```rust
+	const PI: f64 = 3.14159265359;
+    let dist = 5.0;
+    let size = PI * dist * dist;
+    println!("area  : {}", size);
+	```
+
+### Shadowing
+- ...
 
 [Back](https://github.com/hugoMGSung/study-rust/blob/main/README.md)

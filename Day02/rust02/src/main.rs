@@ -16,4 +16,13 @@ fn main() {
     println!("float : {}", d);
     println!("bool  : {}", e);
 
+    // 불변성
+    let mut f = 200; // consider making this binding mutable: `mut f`
+    f = f + 34;
+    println!("sum   : {}", f); // cannot assign twice to immutable variable
+
+    const PI: f64 = 3.14159265359;
+    let dist = 5.0;
+    let size = PI * dist * dist;
+    println!("area  : {}", size);
 }
