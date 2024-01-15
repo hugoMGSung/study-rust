@@ -28,7 +28,7 @@ edition = "2021"
     println!("float : {}", b);
 	```
 
-- 정수형 타입
+- 각 타입형
 
 	|크기 |Signed |Unsigned |
 	|---|---|---|
@@ -38,8 +38,24 @@ edition = "2021"
 	|64비트 |i64 |u64 |
 	|128비트 |i128 |u128 |
 	|아키텍처별 |isize |usize |
+	|---|---|---|
+	|32비트|f32| |
+	|64비트|f64| |
+	|---|---|---|
+	|bool|true/false| |
 
+	```rust
+	// 타입 지정
+    let c: i16 = 12345;
+    let d: f64 = 12.45726;
+    let e: bool = false;
 
+    println!("int   : {}", c);
+    println!("float : {}", d);
+    println!("bool  : {}", e);
+	```
+
+- 
 
 
 [Back](https://github.com/hugoMGSung/study-rust/blob/main/README.md)
