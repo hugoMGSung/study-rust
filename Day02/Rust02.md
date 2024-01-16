@@ -76,5 +76,6 @@ edition = "2021"
 ### Shadowing
 - 현재 범위에 있는 변수와, 바깥 범위에 있는 변수 모두 가릴(쉐도잉) 수 있음
 
+	<img src="https://raw.githubusercontent.com/hugoMGSung/study-rust/main/Images/rust_0002.png" width="600">
 
 [Back](https://github.com/hugoMGSung/study-rust/blob/main/README.md)

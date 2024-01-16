@@ -58,6 +58,8 @@
 
 		- Run 클릭
 
+		<img src="https://raw.githubusercontent.com/hugoMGSung/study-rust/main/Images/rust_0001.png" width="600">
+
 ## 온라인 상에서 공부하고 싶을때
 - 아래의 사이트 진입
 	- https://play.rust-lang.org/ 러스트 플레이그라운드 사용해되 됨!!
