@@ -25,4 +25,24 @@ fn main() {
     let dist = 5.0;
     let size = PI * dist * dist;
     println!("area  : {}", size);
+
+    println!("====================!");
+
+    let ch: char = 'X';
+    println!("{}", ch);
+
+    let cat: char = '😻'; // 와!
+    println!("{cat}");
+
+    // Shadowing
+    let a = 10;
+    println!("최초  : {a}");
+    {
+        let a = "hello";
+        println!("내부  : {a}");
+
+        let a = true;
+        println!("내부에서 쉐도우: {a}");
+    }
+    println!("최종  : {a}");
 }
