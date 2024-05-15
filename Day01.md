@@ -34,6 +34,15 @@
 		> rustc --version
 		rustc 1.75.0 (82e1608df 2023-12-21)
 		```
+	- 러스트에서 필요한 명령어
+		- rustc
+		- cargo
+		- rustup
+
+	- 업데이트 
+		```shell
+		> rustup update
+		``` 
 
 - 프로젝트 생성
 
